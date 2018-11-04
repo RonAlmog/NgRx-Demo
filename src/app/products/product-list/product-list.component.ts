@@ -44,8 +44,8 @@ export class ProductListComponent implements OnInit, OnDestroy {
           this.displayCode = products.showProductCode;
         }
       }
-
     );
+
   }
 
   ngOnDestroy(): void {
